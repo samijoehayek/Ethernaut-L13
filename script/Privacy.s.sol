@@ -2,8 +2,9 @@
 pragma solidity ^0.8.13;
 
 import {Script, console} from "forge-std/Script.sol";
+import {Privacy} from "../src/Privacy.sol";
 
-contract CounterScript is Script {
+contract PrivacyScript is Script {
     function setUp() public {}
 
     function run() public {
